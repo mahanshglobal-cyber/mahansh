@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahansh - Download APK</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        margin:0;
+        font-family:'Poppins',sans-serif;
+        background:#0b0b1a;
+        color:white;
+        text-align:center;
+        overflow-x: hidden; /* To prevent horizontal scrollbar from animations */
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    .hero{
+        padding:80px 20px;
+        background: radial-gradient(circle,#1a0033,#000);
+    }
+
+    h1{
+        font-family:'Orbitron',sans-serif;
+        font-size:48px;
+        color:#ff00ff;
+        animation: fadeIn 2s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size:20px;
+        margin-top:10px;
+        animation: fadeIn 2s ease-in-out 0.5s backwards; /* Added delay and backwards fill mode */
+    }
+
+    .btn{
+        display:inline-block;
+        margin-top:30px;
+        padding:15px 35px;
+        background:linear-gradient(45deg,#ff00ff,#00ccff);
+        color:white;
+        text-decoration:none;
+        border-radius:30px;
+        font-size:20px;
+        transition:0.3s;
+        animation: pulse-glow 2s infinite ease-in-out;
+    }
+
+    .btn:hover{
+        transform:scale(1.1);
+    }
+
+    .section{
+        padding:60px 20px;
+    }
+
+    .card{
+        background:rgba(255,255,255,0.05);
+        padding:30px;
+        border-radius:15px;
+        display:inline-block;
+        animation: slideUp 1s ease-out;
+    }
+
+    .footer{
+        margin-top:50px;
+        padding-bottom: 20px;
+        background: none;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes pulse-glow {
+        0% {
+            box-shadow: 0 0 5px rgba(255, 0, 255, 0.5), 0 0 5px rgba(0, 204, 255, 0.5);
+        }
+        50% {
+            box-shadow: 0 0 20px rgba(255, 0, 255, 1), 0 0 20px rgba(0, 204, 255, 1);
+        }
+        100% {
+            box-shadow: 0 0 5px rgba(255, 0, 255, 0.5), 0 0 5px rgba(0, 204, 255, 0.5);
+        }
+    }
+
+    @keyframes slideUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .footer p{
+        margin:0;
+        font-size:16px;
+        color:#ffd6f0;
+    }
+
+    .heart{
+        color:#ff4da6;
+        margin:0 6px;
+        font-weight:600;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1><img src="image_mahansh.png" alt="Mahansh App Logo" class="logo">MAHANSH</h1>
+<p class="subtitle">Answer States & Capitals, Simple Maths, and Alphabet Quizzes and Earn Rewards</p>
+
+<a class="btn" href="https://drive.google.com/file/d/1FJ2WbBcdUj1kcG2F9F-dSz6CjbOaM2-n/view?usp=sharing" download="app-release.apk">
+⬇ Download APK
+</a>
+</div>
+
+<div class="section">
+<div class="card">
+<h2>🎮 Rewards System</h2>
+<p>1500 Points = 60 UC</p>
+<p>1500 Points = 100 Diamonds</p>
+<p>For BGMI & Free Fire Players</p>
+</div>
+</div>
+
+<div class="footer card">
+<p>Made with <span class="heart" aria-hidden="true">❤</span> by the <strong>Mahansh Team</strong></p>
+</div>
+
+</body>
+</html>
